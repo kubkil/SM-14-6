@@ -1,4 +1,11 @@
 const CounterOne = React.createClass({
+
+  getDefaultProps: function () {
+    render: {
+
+    }
+  }
+
   getInitialState: function () {
     return {
       counter: 0
