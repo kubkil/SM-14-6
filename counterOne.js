@@ -47,7 +47,6 @@ const CounterOne = React.createClass({
   shouldComponentUpdate() {
     console.log('Update phase. shouldComponentUpdate was invoked. We can use it to verify whether new props have been sent. If not, we can avoid rendering an element and all of its children.');
     return true;
-    // return true;
     /* czy zapis poniżej działa na zasadzie if, else if, else?
     shouldComponentUpdate(nextProps, nextState) {
       if (this.props.color !== nextProps.color) {
@@ -72,9 +71,4 @@ const CounterOne = React.createClass({
   componentWillUnmount() {
     console.log('Unmounting phase. componentWillUnmount method was invoked before the component was removed from the DOM. We can use it to clean up DOM elements created in componentDidMount or DidUpdate.')
   }
-
-
 });
-
-// const elementOne = React.createElement(CounterOne);
-// ReactDOM.render(element, document.getElementById('app-one'));

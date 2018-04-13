@@ -26,6 +26,3 @@ const CounterTwo = React.createClass({
   }
 
 });
-
-// const elementTwo = React.createElement(CounterTwo);
-// ReactDOM.render(element, document.getElementById('app-two'));

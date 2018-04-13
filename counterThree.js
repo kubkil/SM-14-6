@@ -26,6 +26,3 @@ const CounterThree = React.createClass({
   }
 
 });
-
-// const elementThree = React.createElement(CounterThree);
-// ReactDOM.render(element, document.getElementById('app-three'));
